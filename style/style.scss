@@ -43,6 +43,7 @@
         line-height: 22px;
         color: #FFFFFF;
         cursor: pointer;
+        transition: background .3s;
         &:hover {
             background: #EB443F;
         }
@@ -82,6 +83,7 @@
     &--game-3 {
         background-image: url(../image/game-3.jpg);
     }
+    transition: border .3s;
     &:hover {
         border: 3px solid #44D2FF;
     }
