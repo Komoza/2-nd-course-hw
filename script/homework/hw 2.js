@@ -7,9 +7,9 @@ a = 20;
 console.log(`a = ${a}`);
 
 // ===== task 2 ===== 
-const YearOfFirstIphone = 2007;
+const yearOfFirstIphone = 2007;
 // alert(`The first iPhone was released in ${YearOfFirstIphone}`);
-console.log(`The first iPhone was released in ${YearOfFirstIphone}`);
+console.log(`The first iPhone was released in ${yearOfFirstIphone}`);
 
 // ===== task 3 =====
 const jsCreatorName = 'Brendan Eich';
