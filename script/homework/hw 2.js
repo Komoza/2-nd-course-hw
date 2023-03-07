@@ -75,6 +75,3 @@ console.log(user[info]);
 const userName = prompt('What is your name?', 'Alexander');
 // alert(`Hello, ${userName}`);
 console.log(`Hello, ${userName}`);
-
-let spending = prompt('Сколько вы хотите потратить?');
-console.log(spending);
