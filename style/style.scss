@@ -6,6 +6,9 @@
     box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
 }
+a {
+    text-decoration: none;
+}
 
 .container {
     width: 100%;
@@ -46,6 +49,9 @@
     &__button {
         width: 234.06px;
         height: 48.6px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
         background: #9C0332;
         border: none;
         border-radius: 30px;
@@ -106,4 +112,5 @@
     }
 }
 
-@import 'mobile'
+@import 'seasons';
+@import 'mobile';

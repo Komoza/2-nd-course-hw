@@ -22,16 +22,49 @@
         padding-left: 16px;
         padding-right: 16px;
     }
-}
 
-//tablet
-@media (max-width: 900px) {
-
+    .seasons {
+        padding-top: 51px;
+        padding-bottom: 85px;
+        &__title {
+            font-size: 32px;
+            line-height: 39px;
+        }
+        &__description {
+            font-size: 14px;
+            line-height: 22px;
+        }
+    }
 }
 
 // oversize 
 @media (min-width: 1440px) {
     .main-box {
         width: 1200px;
+    }
+}
+
+// seasons 
+@media (max-width: 1204px) {
+    .seasons {
+        padding-left: 16px;
+        padding-right: 16px;
+        &__left-box {
+            text-align: center;
+            align-items: center;
+        }
+    }
+}
+
+@media (max-width: 530px) {
+    .seasons__image {
+        width: 344px;
+        height: 236px;
+    }
+}
+
+@media (max-width: 334px) {
+    .seasons__image {
+        width: 320px;
     }
 }

@@ -35,6 +35,6 @@ console.log('num = ' + num);
 
 // ===== task #6 =====
 const firstFriday = 3;
-for (let i = firstFriday; i <= 31; i = i + 7) {
+for (let i = firstFriday; i <= 31; i += 7) {
     console.log(`Сегодня пятница ${i}-е число. Необходимо подготовить отчет.`);
 }
