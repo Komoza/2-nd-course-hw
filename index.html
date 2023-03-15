@@ -13,14 +13,14 @@
             <div class="main-box">
                 <h1 class="main__title">Добро пожаловать <br> на мой сайт !</h1>
                 <p class="main__description">Вам предстоит пройти несколько увлекательных игр. Если готов нажимай <b>поехали</b>&nbsp;и&nbsp;<b>приступай</b></p>
-                <button class="main__button">Поехали!</button>
+                <a href="#games" class="main__button">Поехали!</a>
             </div>
         </main>
 
-        <section class="games">
-            <div class="card card--game-1">
+        <section id="games" class="games">
+            <a href="#seasons" class="card card--game-1">
                 <div class="card__name">Игра 1</div>
-            </div>
+            </a>
 
             <div class="card card--game-2">
                 <div class="card__name">Игра 2</div>
@@ -30,10 +30,23 @@
                 <div class="card__name">Игра 3</div>
             </div>
         </section>
+
+        <section id="seasons" class="seasons">
+            <div class="seasons__left-box">
+                <h2 class="seasons__title">Времена года!</h2>
+                <p class="seasons__description">Нажмите кнопку играть, введите номер месяца (от 1 до 12) и вы узнаете к какому времени года он относится</p>
+                <button class="seasons__button" onclick='getSeasons()'>Играть</button>
+            </div>
+            <img class="seasons__image" src="./image/game-1-image.svg" alt="game image">
+        </section>
     </div>
 
+    <script src="./script/seasons.js"></script>
+
+    <!-- ===== homework ===== -->
     <!-- <script src="./script/homework/hw 2.js"></script> -->
     <!-- <script src="./script/homework/hw 3.js"></script> -->
     <!-- <script src="./script/homework/hw 4.js"></script> -->
+    <!-- <script src="./script/homework/hw 5.js"></script> -->
 </body>
 </html>
