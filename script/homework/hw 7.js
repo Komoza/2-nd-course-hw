@@ -70,7 +70,7 @@ const getRandomRange = (min, max) => {
         min = min - max;
     }
 
-    return (Math.floor(Math.random() * (max - min + 1)) + min);
+    return getRandom(min, max);
 }
 
 console.log(getRandomRange(1, 8));
@@ -85,7 +85,6 @@ console.log(currentDate);
 
 // ===== task #9 =====
 console.log("\n===== task #9 =====");
-// console.log(setDate(getDate(currentDate) * 60 * 60 * 24 * 73));
 
 let date = new Date();
 date.setDate(currentDate.getDate() + 73)
