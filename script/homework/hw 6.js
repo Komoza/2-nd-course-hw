@@ -143,5 +143,5 @@ for (let i = 0; i < 6; i++) {
 }
 console.log(arr);
 
-average = arr.reduce((prev, item) => prev + item) / arr.length;
+let average = arr.reduce((prev, item) => prev + item) / arr.length;
 console.log(average);
