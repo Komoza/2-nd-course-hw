@@ -63,11 +63,10 @@ console.log(getRandomArrNumbers(14));
 console.log("\n===== task #7 =====");
 
 const getRandomRange = (min, max) => {
-    // на случай если первое число передадут больше чем второе, мы меняем их местами
-    if (min > max) {        // swapped value
-        min = min + max;
-        max = min - max;
-        min = min - max;
+
+    // на случай если первое число передадут больше чем второе
+    if (min > max) {
+        return getRandom(max, min);
     }
 
     return getRandom(min, max);
