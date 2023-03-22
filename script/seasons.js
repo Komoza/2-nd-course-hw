@@ -1,4 +1,4 @@
-let getSeasons = () => {
+const getSeasons = () => {
     monthNumber = Number(prompt('Введите номер месяца (от 1 до 12)'));
     
     switch (monthNumber) {

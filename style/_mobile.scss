@@ -24,8 +24,17 @@
     }
 
     .seasons {
-        padding-top: 51px;
-        padding-bottom: 85px;
+        &__title {
+            font-size: 32px;
+            line-height: 39px;
+        }
+        &__description {
+            font-size: 14px;
+            line-height: 22px;
+        }
+    }
+
+    .remember {
         &__title {
             font-size: 32px;
             line-height: 39px;
@@ -44,12 +53,19 @@
     }
 }
 
-// seasons 
+// ganes 
 @media (max-width: 1204px) {
     .seasons {
-        padding-left: 16px;
-        padding-right: 16px;
+        padding: 51px 16px 85px;
         &__left-box {
+            text-align: center;
+            align-items: center;
+        }
+    }
+
+    .remember {
+        padding: 51px 16px 85px;
+        &__right-box {
             text-align: center;
             align-items: center;
         }
@@ -61,10 +77,19 @@
         width: 344px;
         height: 236px;
     }
+
+    .remember__image {
+        width: 344px;
+        height: 236px;
+    }
 }
 
 @media (max-width: 334px) {
     .seasons__image {
+        width: 320px;
+    }
+
+    .remember__image {
         width: 320px;
     }
 }

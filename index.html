@@ -22,13 +22,13 @@
                 <div class="card__name">Игра 1</div>
             </a>
 
-            <div class="card card--game-2">
+            <a href="#remember" class="card card--game-2">
                 <div class="card__name">Игра 2</div>
-            </div>
+            </a>
 
-            <div class="card card--game-3">
+            <a href="#" class="card card--game-3">
                 <div class="card__name">Игра 3</div>
-            </div>
+            </a>
         </section>
 
         <section id="seasons" class="seasons">
@@ -39,9 +39,19 @@
             </div>
             <img class="seasons__image" src="./image/game-1-image.svg" alt="game image">
         </section>
+
+        <section id="remember" class="remember">
+            <img class="remember__image" src="./image/game-2-image.svg" alt="game image">
+            <div class="remember__right-box">
+                <h2 class="remember__title">Запомни слова</h2>
+                <p class="remember__description">При нажатии на кнопку играть, вы увидите несколько слов, которые вам необходимо запомнить.</p>
+                <button class="remember__button" onclick='rememberWords()'>Играть</button>
+            </div>
+        </section>
     </div>
 
     <script src="./script/seasons.js"></script>
+    <script src="./script/remember.js"></script>
 
     <!-- ===== homework ===== -->
     <!-- <script src="./script/homework/hw 2.js"></script> -->
@@ -49,5 +59,6 @@
     <!-- <script src="./script/homework/hw 4.js"></script> -->
     <!-- <script src="./script/homework/hw 5.js"></script> -->
     <!-- <script src="./script/homework/hw 6.js"></script> -->
+    <!-- <script src="./script/homework/hw 7.js"></script> -->
 </body>
 </html>
