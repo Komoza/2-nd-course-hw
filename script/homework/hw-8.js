@@ -58,7 +58,8 @@ timer(30);
 
 // ===== task #5 =====
 function calling() {
-    console.log('Звоню!')
+    console.log('Звоню!');
+	beeps(talk);
 };
 
 function beeps(callback) {
@@ -73,4 +74,4 @@ function talk() {
 }
 
 calling();
-beeps(talk);
+
